@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background-color: rgb(110, 64, 27);
+  font-family: sans-serif;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+input[type="text"] {
+  border: 2px solid #ffa500;
+}
+
+input[type="submit"] {
+  background-color: #ffa500;
+  border: 2px solid #ffa500;
+  color: #ffffff;
+}
+
+.cards {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #f0c15c;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: rgb(83, 49, 21) 10px 10px 5px;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.electric,
+.grass,
+.fire,
+.water,
+.bug,
+.normal,
+.poison,
+.ground,
+.flying,
+.fighting,
+.rock,
+.psychic,
+.ice,
+.ghost,
+.steel,
+.dragon,
+.dark,
+.fairy {
+  border-radius: 50%;
+  border: 5px solid;
+  width: 60%;
+}
+.electric {
+  border-color: #ffdc00;
+}
+.grass {
+  border-color: #62bc5a;
+}
+.fire {
+  border-color: #ff421c;
+}
+.water {
+  border-color: #2c9be3;
+}
+.bug {
+  border-color: #92c12a;
+}
+.normal {
+  border-color: #bbbbaa;
+}
+.poison {
+  border-color: #9553cd;
+}
+.ground {
+  border-color: #a67439;
+}
+.flying {
+  border-color: #96caff;
+}
+.fighting{
+border-color: #bb5544;;
+}
+.rock{
+border-color: #bbaa66;
+}
+.psychic{
+border-color: #ff6380;
+}
+.ice{
+border-color: #74cfc0;
+}
+.ghost{
+border-color: #6e4370;
+}
+.steel{
+border-color: #aaaabb;
+}
+.dragon{
+border-color: #5670be;
+}
+.dark{
+border-color: #4e4545;
+}
+.fairy{
+border-color: #ec8fe6;
+}
+h1 {
+  background-color: white;
+  font-weight: 100;
+  width: 70%;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 400;
+  text-decoration: underline white;
+}
+
+.abilities {
+  margin-bottom: 2rem;
+}
+
+.stats {
+  width: 100%;
+}
+
+.stats-value {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.stats-name {
+  width: 60%;
+}
